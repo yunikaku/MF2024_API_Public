@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h1>MF2024</h1>
+    <h3>uniaccsessからの予約確認メールです</h3>
+    <h4>予約内容</h4>
+    <p>予約番号: {{ ID }}</p>
+    <p>予約日時: {{ Date }}</p>
+    <p>予約者: {{ Name }}</p>
+    <p>予約人数: {{ Number }}</p>
+    <p>予約内容: {{ Content }}</p>
+    <p>受付用コード: {{code}}</p>
+    <p>受付用コード又は、QRコードは、受付時に必要となりますので、必ずご持参ください。</p>
+    <p>受付用QRコード</p>
+    <img src="data:imege/jpeg;base64,{{QR}}" alt="QRコード" width="200" height="200">
+
+</body>
+</html>
